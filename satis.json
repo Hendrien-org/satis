@@ -1,0 +1,13 @@
+{
+  "name": "hendrien/satis",
+  "homepage": "https://hendrien-org.github.io/satis/",
+  "repositories": [
+    {
+      "packagist": false
+    },
+    {
+      "firegento": false
+    }
+  ],
+  "require-all": true
+}
