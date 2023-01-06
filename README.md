@@ -1,4 +1,4 @@
-# Hendrien Composer Repository
+# B2BZanden Composer Repository
 
 https://hendrien-org.github.io/satis/
 
@@ -10,18 +10,47 @@ Add this Composer repository to your project's composer.json file, then you can 
 {
   "repositories": [{
     "type": "composer",
-    "url": "https://hendrien-org.github.io/satis/"
+    "url": "https://hendrien-org.github.io/satis"
   }],
   "minimum-stability": "dev",
   "prefer-stable": true
 }
 ```
 
-## Updating packages
-To update existing packages run `zsh update.zsh`.
+## Run as Docker container
 
-## Adding new packages
-To Add new packages edit the satis.json file and run `zsh update.sh`.  
-If this is your first time cloning the repo run `composer install` first.
+Pull the image:
 
-> Note: Composer repository is in docs folder
+```sh
+docker pull composer/satis
+```
+
+Run the image (with Composer cache from host):
+
+```sh
+docker run --rm --init -it \
+  --user $(id -u):$(id -g) \
+  --volume $(pwd):/build \
+  --volume "${COMPOSER_HOME:-$HOME/.composer}:/composer" \
+  composer/satis build <configuration-file> <output-directory>
+```
+
+- `<configuration-file>` = `satis.json`
+- `<output-directory>` = `docs`
+
+```sh
+docker pull composer/satis
+docker run --rm --init -it \
+  --user $(id -u):$(id -g) \
+  --volume $(pwd):/build \
+  --volume "${COMPOSER_HOME:-$HOME/.composer}:/composer" \
+  composer/satis build satis.json docs;
+git add -A;
+git commit -m ":arrow_up: update dependencies";
+git push;
+```
+
+
+## Updating Satis
+
+Pull the latest image. 

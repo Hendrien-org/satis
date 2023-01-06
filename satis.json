@@ -1,12 +1,19 @@
 {
-  "name": "hendrien/satis",
+  "name": "hendrien-org/satis",
   "homepage": "https://hendrien-org.github.io/satis/",
+  "output-dir": "docs",
   "repositories": [
     {
-      "packagist": false
+      "type": "vcs",
+      "url": "https://github.com/HKwebnl/amasty-base"
     },
     {
-      "firegento": false
+      "type": "vcs",
+      "url": "https://github.com/HKwebnl/amasty-cron-schedule-list"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/HKwebnl/amasty-cron-scheduler"
     }
   ],
   "require-all": true
