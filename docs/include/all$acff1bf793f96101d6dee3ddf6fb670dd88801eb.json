@@ -314,6 +314,141 @@
                     "issues": "https://github.com/HKwebnl/Magento2-Amasty-CronScheduler/issues"
                 }
             }
+        },
+        "amasty/mostviewed": {
+            "2.13.3": {
+                "name": "amasty/mostviewed",
+                "version": "2.13.3",
+                "version_normalized": "2.13.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:HKwebnl/Magento2-Amasty-Mostviewed.git",
+                    "reference": "662e49b37bc44061aff6dad598bbfed477dcc85f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/HKwebnl/Magento2-Amasty-Mostviewed/zipball/662e49b37bc44061aff6dad598bbfed477dcc85f",
+                    "reference": "662e49b37bc44061aff6dad598bbfed477dcc85f",
+                    "shasum": ""
+                },
+                "require": {
+                    "amasty/base": ">=1.14.1",
+                    "amasty/cron-schedule-list": "*",
+                    "php": ">=7.3"
+                },
+                "suggest": {
+                    "amasty/customers-also-viewed-graphql": "Install amasty/customers-also-viewed-graphql module to activate Graphql and Automatic Related Products integration.",
+                    "amasty/module-mostviewed-mftf-2": "Install mostviewed-mftf-2 module to be able to run Mostviewed MFTF tests for Magento 2.3.5+ version",
+                    "amasty/module-mostviewed-mftf-3": "Install mostviewed-mftf-3 module to be able to run Mostviewed MFTF tests for Magento 2.4.0+ version"
+                },
+                "time": "2023-01-06T14:20:06+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Amasty\\Mostviewed\\": ""
+                    }
+                },
+                "license": [
+                    "Commercial"
+                ],
+                "description": "Automatic Related Products By Amasty",
+                "support": {
+                    "source": "https://github.com/HKwebnl/Magento2-Amasty-Mostviewed/tree/2.13.3",
+                    "issues": "https://github.com/HKwebnl/Magento2-Amasty-Mostviewed/issues"
+                }
+            },
+            "dev-develop": {
+                "name": "amasty/mostviewed",
+                "version": "dev-develop",
+                "version_normalized": "dev-develop",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:HKwebnl/Magento2-Amasty-Mostviewed.git",
+                    "reference": "662e49b37bc44061aff6dad598bbfed477dcc85f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/HKwebnl/Magento2-Amasty-Mostviewed/zipball/662e49b37bc44061aff6dad598bbfed477dcc85f",
+                    "reference": "662e49b37bc44061aff6dad598bbfed477dcc85f",
+                    "shasum": ""
+                },
+                "require": {
+                    "amasty/base": ">=1.14.1",
+                    "amasty/cron-schedule-list": "*",
+                    "php": ">=7.3"
+                },
+                "suggest": {
+                    "amasty/customers-also-viewed-graphql": "Install amasty/customers-also-viewed-graphql module to activate Graphql and Automatic Related Products integration.",
+                    "amasty/module-mostviewed-mftf-2": "Install mostviewed-mftf-2 module to be able to run Mostviewed MFTF tests for Magento 2.3.5+ version",
+                    "amasty/module-mostviewed-mftf-3": "Install mostviewed-mftf-3 module to be able to run Mostviewed MFTF tests for Magento 2.4.0+ version"
+                },
+                "time": "2023-01-06T14:20:06+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Amasty\\Mostviewed\\": ""
+                    }
+                },
+                "license": [
+                    "Commercial"
+                ],
+                "description": "Automatic Related Products By Amasty",
+                "support": {
+                    "source": "https://github.com/HKwebnl/Magento2-Amasty-Mostviewed/tree/2.13.3",
+                    "issues": "https://github.com/HKwebnl/Magento2-Amasty-Mostviewed/issues"
+                }
+            },
+            "dev-main": {
+                "name": "amasty/mostviewed",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:HKwebnl/Magento2-Amasty-Mostviewed.git",
+                    "reference": "662e49b37bc44061aff6dad598bbfed477dcc85f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/HKwebnl/Magento2-Amasty-Mostviewed/zipball/662e49b37bc44061aff6dad598bbfed477dcc85f",
+                    "reference": "662e49b37bc44061aff6dad598bbfed477dcc85f",
+                    "shasum": ""
+                },
+                "require": {
+                    "amasty/base": ">=1.14.1",
+                    "amasty/cron-schedule-list": "*",
+                    "php": ">=7.3"
+                },
+                "suggest": {
+                    "amasty/customers-also-viewed-graphql": "Install amasty/customers-also-viewed-graphql module to activate Graphql and Automatic Related Products integration.",
+                    "amasty/module-mostviewed-mftf-2": "Install mostviewed-mftf-2 module to be able to run Mostviewed MFTF tests for Magento 2.3.5+ version",
+                    "amasty/module-mostviewed-mftf-3": "Install mostviewed-mftf-3 module to be able to run Mostviewed MFTF tests for Magento 2.4.0+ version"
+                },
+                "time": "2023-01-06T14:20:06+00:00",
+                "default-branch": true,
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Amasty\\Mostviewed\\": ""
+                    }
+                },
+                "license": [
+                    "Commercial"
+                ],
+                "description": "Automatic Related Products By Amasty",
+                "support": {
+                    "source": "https://github.com/HKwebnl/Magento2-Amasty-Mostviewed/tree/2.13.3",
+                    "issues": "https://github.com/HKwebnl/Magento2-Amasty-Mostviewed/issues"
+                }
+            }
         }
     }
 }
