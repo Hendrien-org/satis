@@ -1,4 +1,4 @@
-# B2BZanden Composer Repository
+# Hendrien Composer Repository
 
 https://hendrien-org.github.io/satis/
 
