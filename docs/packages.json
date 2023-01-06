@@ -1,0 +1,14 @@
+{
+    "packages": [],
+    "includes": {
+        "include/all$e6895d46b574269921c904fd610d3ea1a46b1c8b.json": {
+            "sha1": "e6895d46b574269921c904fd610d3ea1a46b1c8b"
+        }
+    },
+    "metadata-url": "/satis/p2/%package%.json",
+    "available-packages": [
+        "amasty/base",
+        "amasty/cron-schedule-list",
+        "amasty/cron-scheduler"
+    ]
+}

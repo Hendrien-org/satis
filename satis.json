@@ -5,15 +5,15 @@
   "repositories": [
     {
       "type": "vcs",
-      "url": "https://github.com/HKwebnl/amasty-base"
+      "url": "https://github.com/HKwebnl/Magento2-Amasty-Base"
     },
     {
       "type": "vcs",
-      "url": "https://github.com/HKwebnl/amasty-cron-schedule-list"
+      "url": "https://github.com/HKwebnl/Magento2-Amasty-CronScheduleList"
     },
     {
       "type": "vcs",
-      "url": "https://github.com/HKwebnl/amasty-cron-scheduler"
+      "url": "https://github.com/HKwebnl/Magento2-Amasty-CronScheduler"
     }
   ],
   "require-all": true

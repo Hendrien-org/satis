@@ -1,0 +1,83 @@
+{
+    "packages": {
+        "amasty/base": [
+            {
+                "name": "amasty/base",
+                "version": "dev-develop",
+                "version_normalized": "dev-develop",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:HKwebnl/Magento2-Amasty-Base.git",
+                    "reference": "94f573f428d24a5658666bf8e7c8602e66fd2264"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/HKwebnl/Magento2-Amasty-Base/zipball/94f573f428d24a5658666bf8e7c8602e66fd2264",
+                    "reference": "94f573f428d24a5658666bf8e7c8602e66fd2264",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-dom": "*",
+                    "php": ">=7.3"
+                },
+                "time": "2023-01-06T14:01:00+00:00",
+                "default-branch": true,
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Amasty\\Base\\": ""
+                    }
+                },
+                "license": [
+                    "Commercial"
+                ],
+                "description": "Amasty Base",
+                "support": {
+                    "source": "https://github.com/HKwebnl/Magento2-Amasty-Base/tree/1.14.4",
+                    "issues": "https://github.com/HKwebnl/Magento2-Amasty-Base/issues"
+                }
+            },
+            {
+                "name": "amasty/base",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:HKwebnl/Magento2-Amasty-Base.git",
+                    "reference": "94f573f428d24a5658666bf8e7c8602e66fd2264"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/HKwebnl/Magento2-Amasty-Base/zipball/94f573f428d24a5658666bf8e7c8602e66fd2264",
+                    "reference": "94f573f428d24a5658666bf8e7c8602e66fd2264",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-dom": "*",
+                    "php": ">=7.3"
+                },
+                "time": "2023-01-06T14:01:00+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Amasty\\Base\\": ""
+                    }
+                },
+                "license": [
+                    "Commercial"
+                ],
+                "description": "Amasty Base",
+                "support": {
+                    "source": "https://github.com/HKwebnl/Magento2-Amasty-Base/tree/1.14.4",
+                    "issues": "https://github.com/HKwebnl/Magento2-Amasty-Base/issues"
+                }
+            }
+        ]
+    }
+}

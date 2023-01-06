@@ -1,0 +1,319 @@
+{
+    "packages": {
+        "amasty/base": {
+            "1.14.4": {
+                "name": "amasty/base",
+                "version": "1.14.4",
+                "version_normalized": "1.14.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:HKwebnl/Magento2-Amasty-Base.git",
+                    "reference": "94f573f428d24a5658666bf8e7c8602e66fd2264"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/HKwebnl/Magento2-Amasty-Base/zipball/94f573f428d24a5658666bf8e7c8602e66fd2264",
+                    "reference": "94f573f428d24a5658666bf8e7c8602e66fd2264",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-dom": "*",
+                    "php": ">=7.3"
+                },
+                "time": "2023-01-06T14:01:00+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Amasty\\Base\\": ""
+                    }
+                },
+                "license": [
+                    "Commercial"
+                ],
+                "description": "Amasty Base",
+                "support": {
+                    "source": "https://github.com/HKwebnl/Magento2-Amasty-Base/tree/1.14.4",
+                    "issues": "https://github.com/HKwebnl/Magento2-Amasty-Base/issues"
+                }
+            },
+            "dev-develop": {
+                "name": "amasty/base",
+                "version": "dev-develop",
+                "version_normalized": "dev-develop",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:HKwebnl/Magento2-Amasty-Base.git",
+                    "reference": "94f573f428d24a5658666bf8e7c8602e66fd2264"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/HKwebnl/Magento2-Amasty-Base/zipball/94f573f428d24a5658666bf8e7c8602e66fd2264",
+                    "reference": "94f573f428d24a5658666bf8e7c8602e66fd2264",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-dom": "*",
+                    "php": ">=7.3"
+                },
+                "time": "2023-01-06T14:01:00+00:00",
+                "default-branch": true,
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Amasty\\Base\\": ""
+                    }
+                },
+                "license": [
+                    "Commercial"
+                ],
+                "description": "Amasty Base",
+                "support": {
+                    "source": "https://github.com/HKwebnl/Magento2-Amasty-Base/tree/1.14.4",
+                    "issues": "https://github.com/HKwebnl/Magento2-Amasty-Base/issues"
+                }
+            },
+            "dev-main": {
+                "name": "amasty/base",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:HKwebnl/Magento2-Amasty-Base.git",
+                    "reference": "94f573f428d24a5658666bf8e7c8602e66fd2264"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/HKwebnl/Magento2-Amasty-Base/zipball/94f573f428d24a5658666bf8e7c8602e66fd2264",
+                    "reference": "94f573f428d24a5658666bf8e7c8602e66fd2264",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-dom": "*",
+                    "php": ">=7.3"
+                },
+                "time": "2023-01-06T14:01:00+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Amasty\\Base\\": ""
+                    }
+                },
+                "license": [
+                    "Commercial"
+                ],
+                "description": "Amasty Base",
+                "support": {
+                    "source": "https://github.com/HKwebnl/Magento2-Amasty-Base/tree/1.14.4",
+                    "issues": "https://github.com/HKwebnl/Magento2-Amasty-Base/issues"
+                }
+            }
+        },
+        "amasty/cron-schedule-list": {
+            "1.0.6": {
+                "name": "amasty/cron-schedule-list",
+                "version": "1.0.6",
+                "version_normalized": "1.0.6.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:HKwebnl/Magento2-Amasty-CronScheduleList.git",
+                    "reference": "f0d4b530e004b93abc99120783f651c3c369ed26"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/HKwebnl/Magento2-Amasty-CronScheduleList/zipball/f0d4b530e004b93abc99120783f651c3c369ed26",
+                    "reference": "f0d4b530e004b93abc99120783f651c3c369ed26",
+                    "shasum": ""
+                },
+                "require": {
+                    "amasty/base": ">=1.13.2",
+                    "php": ">=7.3"
+                },
+                "time": "2023-01-06T13:58:58+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Amasty\\CronScheduleList\\": ""
+                    }
+                },
+                "license": [
+                    "Commercial"
+                ],
+                "description": "Cron Schedule List by Amasty",
+                "support": {
+                    "source": "https://github.com/HKwebnl/Magento2-Amasty-CronScheduleList/tree/1.0.6",
+                    "issues": "https://github.com/HKwebnl/Magento2-Amasty-CronScheduleList/issues"
+                }
+            },
+            "dev-develop": {
+                "name": "amasty/cron-schedule-list",
+                "version": "dev-develop",
+                "version_normalized": "dev-develop",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:HKwebnl/Magento2-Amasty-CronScheduleList.git",
+                    "reference": "f0d4b530e004b93abc99120783f651c3c369ed26"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/HKwebnl/Magento2-Amasty-CronScheduleList/zipball/f0d4b530e004b93abc99120783f651c3c369ed26",
+                    "reference": "f0d4b530e004b93abc99120783f651c3c369ed26",
+                    "shasum": ""
+                },
+                "require": {
+                    "amasty/base": ">=1.13.2",
+                    "php": ">=7.3"
+                },
+                "time": "2023-01-06T13:58:58+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Amasty\\CronScheduleList\\": ""
+                    }
+                },
+                "license": [
+                    "Commercial"
+                ],
+                "description": "Cron Schedule List by Amasty",
+                "support": {
+                    "source": "https://github.com/HKwebnl/Magento2-Amasty-CronScheduleList/tree/1.0.6",
+                    "issues": "https://github.com/HKwebnl/Magento2-Amasty-CronScheduleList/issues"
+                }
+            },
+            "dev-main": {
+                "name": "amasty/cron-schedule-list",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:HKwebnl/Magento2-Amasty-CronScheduleList.git",
+                    "reference": "f0d4b530e004b93abc99120783f651c3c369ed26"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/HKwebnl/Magento2-Amasty-CronScheduleList/zipball/f0d4b530e004b93abc99120783f651c3c369ed26",
+                    "reference": "f0d4b530e004b93abc99120783f651c3c369ed26",
+                    "shasum": ""
+                },
+                "require": {
+                    "amasty/base": ">=1.13.2",
+                    "php": ">=7.3"
+                },
+                "time": "2023-01-06T13:58:58+00:00",
+                "default-branch": true,
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Amasty\\CronScheduleList\\": ""
+                    }
+                },
+                "license": [
+                    "Commercial"
+                ],
+                "description": "Cron Schedule List by Amasty",
+                "support": {
+                    "source": "https://github.com/HKwebnl/Magento2-Amasty-CronScheduleList/tree/1.0.6",
+                    "issues": "https://github.com/HKwebnl/Magento2-Amasty-CronScheduleList/issues"
+                }
+            }
+        },
+        "amasty/cron-scheduler": {
+            "dev-develop": {
+                "name": "amasty/cron-scheduler",
+                "version": "dev-develop",
+                "version_normalized": "dev-develop",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:HKwebnl/Magento2-Amasty-CronScheduler.git",
+                    "reference": "fc55b15fe058740626a14365ea2b2e850bc66ec8"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/HKwebnl/Magento2-Amasty-CronScheduler/zipball/fc55b15fe058740626a14365ea2b2e850bc66ec8",
+                    "reference": "fc55b15fe058740626a14365ea2b2e850bc66ec8",
+                    "shasum": ""
+                },
+                "require": {
+                    "amasty/base": ">=1.14.2",
+                    "amasty/cron-schedule-list": ">=1.0.3",
+                    "php": ">=7.3"
+                },
+                "time": "2023-01-06T13:59:49+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Amasty\\CronScheduler\\": ""
+                    }
+                },
+                "license": [
+                    "Commercial"
+                ],
+                "description": "Cron Scheduler by Amasty",
+                "support": {
+                    "source": "https://github.com/HKwebnl/Magento2-Amasty-CronScheduler/tree/1.0.6",
+                    "issues": "https://github.com/HKwebnl/Magento2-Amasty-CronScheduler/issues"
+                }
+            },
+            "dev-main": {
+                "name": "amasty/cron-scheduler",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:HKwebnl/Magento2-Amasty-CronScheduler.git",
+                    "reference": "fc55b15fe058740626a14365ea2b2e850bc66ec8"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/HKwebnl/Magento2-Amasty-CronScheduler/zipball/fc55b15fe058740626a14365ea2b2e850bc66ec8",
+                    "reference": "fc55b15fe058740626a14365ea2b2e850bc66ec8",
+                    "shasum": ""
+                },
+                "require": {
+                    "amasty/base": ">=1.14.2",
+                    "amasty/cron-schedule-list": ">=1.0.3",
+                    "php": ">=7.3"
+                },
+                "time": "2023-01-06T13:59:49+00:00",
+                "default-branch": true,
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Amasty\\CronScheduler\\": ""
+                    }
+                },
+                "license": [
+                    "Commercial"
+                ],
+                "description": "Cron Scheduler by Amasty",
+                "support": {
+                    "source": "https://github.com/HKwebnl/Magento2-Amasty-CronScheduler/tree/1.0.6",
+                    "issues": "https://github.com/HKwebnl/Magento2-Amasty-CronScheduler/issues"
+                }
+            }
+        }
+    }
+}
