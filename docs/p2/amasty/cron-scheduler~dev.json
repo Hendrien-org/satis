@@ -36,7 +36,7 @@
                 ],
                 "description": "Cron Scheduler by Amasty",
                 "support": {
-                    "source": "https://github.com/HKwebnl/Magento2-Amasty-CronScheduler/tree/1.0.6",
+                    "source": "https://github.com/HKwebnl/Magento2-Amasty-CronScheduler/tree/1.0.11",
                     "issues": "https://github.com/HKwebnl/Magento2-Amasty-CronScheduler/issues"
                 }
             },
@@ -76,7 +76,7 @@
                 ],
                 "description": "Cron Scheduler by Amasty",
                 "support": {
-                    "source": "https://github.com/HKwebnl/Magento2-Amasty-CronScheduler/tree/1.0.6",
+                    "source": "https://github.com/HKwebnl/Magento2-Amasty-CronScheduler/tree/1.0.11",
                     "issues": "https://github.com/HKwebnl/Magento2-Amasty-CronScheduler/issues"
                 }
             }

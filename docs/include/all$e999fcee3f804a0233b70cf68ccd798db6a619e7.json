@@ -235,6 +235,45 @@
             }
         },
         "amasty/cron-scheduler": {
+            "1.0.11": {
+                "name": "amasty/cron-scheduler",
+                "version": "1.0.11",
+                "version_normalized": "1.0.11.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:HKwebnl/Magento2-Amasty-CronScheduler.git",
+                    "reference": "fc55b15fe058740626a14365ea2b2e850bc66ec8"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/HKwebnl/Magento2-Amasty-CronScheduler/zipball/fc55b15fe058740626a14365ea2b2e850bc66ec8",
+                    "reference": "fc55b15fe058740626a14365ea2b2e850bc66ec8",
+                    "shasum": ""
+                },
+                "require": {
+                    "amasty/base": ">=1.14.2",
+                    "amasty/cron-schedule-list": ">=1.0.3",
+                    "php": ">=7.3"
+                },
+                "time": "2023-01-06T13:59:49+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Amasty\\CronScheduler\\": ""
+                    }
+                },
+                "license": [
+                    "Commercial"
+                ],
+                "description": "Cron Scheduler by Amasty",
+                "support": {
+                    "source": "https://github.com/HKwebnl/Magento2-Amasty-CronScheduler/tree/1.0.11",
+                    "issues": "https://github.com/HKwebnl/Magento2-Amasty-CronScheduler/issues"
+                }
+            },
             "dev-develop": {
                 "name": "amasty/cron-scheduler",
                 "version": "dev-develop",
@@ -270,7 +309,7 @@
                 ],
                 "description": "Cron Scheduler by Amasty",
                 "support": {
-                    "source": "https://github.com/HKwebnl/Magento2-Amasty-CronScheduler/tree/1.0.6",
+                    "source": "https://github.com/HKwebnl/Magento2-Amasty-CronScheduler/tree/1.0.11",
                     "issues": "https://github.com/HKwebnl/Magento2-Amasty-CronScheduler/issues"
                 }
             },
@@ -310,7 +349,7 @@
                 ],
                 "description": "Cron Scheduler by Amasty",
                 "support": {
-                    "source": "https://github.com/HKwebnl/Magento2-Amasty-CronScheduler/tree/1.0.6",
+                    "source": "https://github.com/HKwebnl/Magento2-Amasty-CronScheduler/tree/1.0.11",
                     "issues": "https://github.com/HKwebnl/Magento2-Amasty-CronScheduler/issues"
                 }
             }
